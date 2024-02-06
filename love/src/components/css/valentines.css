@@ -1,0 +1,66 @@
+.valentine_con{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.valentine{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 60px;
+}
+.valentine h1{
+    font-size: 3rem;
+    color: #ff0000;
+    text-align: center;
+}
+.confirm_con{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding-top: 10px;
+}
+
+.yes{
+    background-color: green;
+    width:200px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.yes h1{
+    color: white;
+    font-size: 18px;
+}
+
+.no{
+    background-color: red;
+    width:200px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.no h1{
+    color: white;
+    font-size: 18px;
+}
+
+@media screen and (max-width: 450px){
+    .yes{
+        width:100px;
+        height: 50px;
+    }
+    .no{
+        width:100px;
+        height: 50px;
+    }
+}

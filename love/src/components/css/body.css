@@ -1,0 +1,120 @@
+.web-body {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-content: center;
+  }
+  
+  /* .img-con {
+    height: 300px;
+    width: 100%;
+    padding-top: 20px;
+    border-radius: 20px;
+  } */
+
+  h1{
+    margin: 0;
+  }
+  
+  .frame {
+    background-color: #ddc;
+    border: solid 5vmin #eee;
+    border-bottom-color: #fff;
+    border-left-color: #eee;
+    border-radius: 2px;
+    border-right-color: #eee;
+    border-top-color: #ddd;
+    box-shadow: 0 0 5px 0 rgba(0, 0, 0, .25) inset, 0 5px 10px 5px rgba(0, 0, 0, .25);
+    box-sizing: border-box;
+    display: inline-block;
+    margin: 5vh 15vw;
+    height: 80vh;
+    position: relative;
+    text-align: center;
+  }
+  
+  .frame:before {
+    border-radius: 2px;
+    bottom: -2vmin;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, .25) inset;
+    content: "";
+    left: -2vmin;
+    position: absolute;
+    right: -2vmin;
+    top: -2vmin;
+  }
+  
+  .frame:after {
+    border-radius: 2px;
+    bottom: -2.5vmin;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, .25);
+    content: "";
+    left: -2.5vmin;
+    position: absolute;
+    right: -2.5vmin;
+    top: -2.5vmin;
+  }
+  
+  .img-con.show {
+    opacity: 1;
+  }
+  
+/* ... (previous styles) ... */
+
+.frame img, .frame video {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+  border-radius: 20px;
+  opacity: var(--img-opacity, 0);
+  transition: opacity 0.3s ease-in-out; /* Adding a transition effect */
+}
+
+
+/* Remove the .show class for img since we'll control opacity with the --img-opacity variable */
+
+/* ... (rest of the styles) ... */
+
+  
+  img.show , video.show{
+    opacity: 1;
+  }
+  
+  .content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+  }
+  
+  i {
+    font-size: 10rem;
+  }
+
+  i:hover{
+    cursor: pointer;
+  }
+  
+  @media only screen and (max-width: 450px) {
+    i {
+      font-size: 10rem;
+    }
+    .frame {
+      background-color: #ddc;
+      border: solid 5vmin #eee;
+      border-bottom-color: #fff;
+      border-left-color: #eee;
+      border-radius: 2px;
+      border-right-color: #eee;
+      border-top-color: #ddd;
+      box-shadow: 0 0 5px 0 rgba(0, 0, 0, .25) inset, 0 5px 10px 5px rgba(0, 0, 0, .25);
+      box-sizing: border-box;
+      display: inline-block;
+      margin: 1.5vh 5vw;
+      height: 50vh;
+      position: relative;
+      text-align: center;
+    }
+  }
+  

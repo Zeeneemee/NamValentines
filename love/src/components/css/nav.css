@@ -1,0 +1,55 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Love+Light&family=Love+Ya+Like+A+Sister&family=Neucha&family=Poppins:wght@500;600;700;800&display=swap');
+.navbar{
+    height: 80px;
+    position: relative;
+    top:0;
+    text-align: center;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+
+
+  .nav-con{
+    display: flex;
+    align-items: center;
+  }
+
+  .nav-con h1{
+    font-family: 'Love Ya Like A Sister', cursive;
+    font-size: 48px;
+  }
+
+  @media only screen and (max-width:450px){
+    .nav-con h1{
+      font-size: 28px;
+    }
+  }
+ 
+
+  /* @media only screen and (max-width: 375px) {
+    .navbar{
+        height:100px;
+        position: relative;
+        top:0;
+        background-color: #D5B4B4;
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+      }
+      .navbar img{
+        height: 100px;
+        width: 100px;
+        background-color:#D5B4B4;
+      }
+      .nav-con{
+        display: flex;
+        align-items: center;
+        width: 100%;
+        
+      }
+    
+} */

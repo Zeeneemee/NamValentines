@@ -1,0 +1,39 @@
+/* announcement.css */
+.announce-con {
+    overflow: hidden;
+    white-space: nowrap;
+    background-color: #FFC0CB;
+    position: sticky;
+    
+  }
+  
+  .announce-text {
+    animation: marquee 15s linear infinite; /* Set the animation iteration count to infinite */
+  }
+
+  p{
+    color:white;
+    font-weight: 700;
+    font-family: 'Poppins', sans-serif;
+    
+  }
+  
+  @keyframes marquee {
+    0% {
+      transform: translateX(100%);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+  }
+  
+  @media only screen and (max-width: 375px) {
+    announce-text {
+        animation-duration: 10s; /* Adjust the animation duration for smaller screens */
+        animation-direction: alternate; /* Reverse the animation when it reaches the end */
+        animation-iteration-count: infinite; /* Keep the reverse animation running indefinitely */
+      }
+    p{
+        font-size: 12px;
+    }
+}

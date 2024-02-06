@@ -1,0 +1,29 @@
+.gift {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    transition: all 0.3s ease-out;
+  }
+  
+  .gift i {
+    /* Adjust the size of the icon as needed */
+    font-size: 10rem; /* Use font-size to adjust the icon size */
+  }
+  .gift.scale-up {
+    transform: scale(1.5); /* Increase the scale to enlarge the icon */
+    animation: fadeOut 2s linear; /* Add a fade-out animation with a 2-second duration */
+    opacity: 1; /* Reset the opacity to 1 during the animation */
+  }
+  
+  @keyframes fadeOut {
+    0% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 0;
+      transform: scale(10); /* Optionally, you can scale the icon further during the fade-out */
+    }
+  }
+  
