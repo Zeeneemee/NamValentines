@@ -5,7 +5,6 @@ import { useState, useRef } from 'react'
 const Valentines = ({showPic, setShowPic})=>{
     const [click,setClick] = useState(1)
     const enlarge = useRef(null)
-    const move = useRef(null)
     const handleClickNo = ()=>{
         setClick(cur=> cur < 6 ? cur + 1 : 6 )
         enlarge.current.style.transform = `scale(${1+click*0.5}) translateY(${click*10}px)`

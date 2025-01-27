@@ -23,6 +23,15 @@ import TwentyOne from '../our_memory/nam/twentyTwo.jpg'
 import Twentytwo from '../our_memory/nam/TwentyThree.jpg'
 import TwentyThird from '../our_memory/nam/twentyFour.PNG'
 import TwentyFour from '../our_memory/nam/twentFive.jpg'
+import TwentyFive from '../our_memory/namSG/jpgSG/sg1.JPG'
+import TwentySix from '../our_memory/namSG/jpgSG/sg2.jpg'
+import TwentySeven from '../our_memory/namSG/jpgSG/arrivedSg.jpg'
+import TwentEight from '../our_memory/namSG/jpgSG/celebnamnam.jpg'
+import TwentNine from '../our_memory/namSG/jpgSG/hotnamnam.jpg'
+import Thirty from '../our_memory/namSG/jpgSG/sexynamnam.jpg'
+import ThirtyOne from '../our_memory/namSG/jpgSG/merlinam.jpg'
+import ThirtyTwo from '../our_memory/namSG/jpgSG/hustlenamnam.jpg'
+
 
 
 const Pic = [
@@ -50,9 +59,8 @@ const Pic = [
     { pic: Twentytwo, text: 'What a rooftop meal before Singapore :(' },
     { pic: TwentyThird, text: 'My favourite girl video calling with me in SG.' },
     { pic: TwentyFour, text: 'Let\'s continue our love journey... Love you 😘 ' },
-        
 
-    
+    // { pic: TwentyFive, text: 'Let\'s continue our love journey... Love you 😘 ' },
 ];
 
 export default Pic;
