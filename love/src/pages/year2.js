@@ -11,6 +11,8 @@ const Year2 = () => {
   });
 
   const [experiences, setExperiences] = useState([]);
+  const [randomChoice, setRandomChoice] = useState(null);
+  const sexy = [" You get: **One Free Hug & Kiss Anytime! 💋**", " You get: **spicy and hard tonight  🌶️🌶️", " You get: **Ready for the style you like 🐶 or 🚁", "You get: **Yuzu drink made by baby 👶", "You get: **Pick you up service from anywhere! 🌉🌇"]
 
   useEffect(() => {
     const fetchExperiences = async () => {
@@ -18,6 +20,7 @@ const Year2 = () => {
       setExperiences(data);
     };
     fetchExperiences();
+    setRandomChoice(Math.floor(Math.random() * sexy.length));
   }, []);
 
   const handleSelect = async (type, choice) => {
@@ -108,7 +111,7 @@ const Year2 = () => {
         {selectedExperiences.eat && selectedExperiences.play && selectedExperiences.do && (
           <div className="secret-ticket">
             🎁 **Mystery Ticket Unlocked!** 🎁  
-            <p>You get: **One Free Hug & Kiss Anytime! 💋**</p>
+            <p>{sexy[randomChoice]}</p>
           </div>
         )}
       </div>
