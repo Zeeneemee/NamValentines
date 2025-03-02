@@ -1,5 +1,5 @@
 import { useContext } from 'react';
-import { ThemeContext } from '../App';
+import { ThemeContext } from '../pages/year1';
 import Pic from './data';
 
 import './css/nav.css';

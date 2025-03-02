@@ -1,5 +1,5 @@
 import { useContext, useState } from "react";
-import { ThemeContext } from "../App";
+import { ThemeContext } from "../pages/year1";
 import { Opening } from "./body";
 
 import './css/page.css';
@@ -8,7 +8,7 @@ const Pagination = () => {
   const { no, setNo } = useContext(ThemeContext);
   const {setOpen, setShowImage} = useContext(Opening)
   const [page,setPage] = useState(1)
-  const totalPages = 23;
+  const totalPages = 29;
 
 const handlePageChange =  (newPage) => {
   if (newPage >= 0 && newPage < totalPages) {
@@ -27,7 +27,7 @@ const handlePageChange =  (newPage) => {
     }, 100); // Adjust the delay time as needed
   }
   if(page >= totalPages){
-    setPage(23);
+    setPage(totalPages);
   }
 };
   

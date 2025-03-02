@@ -1,7 +1,7 @@
 import React, { useState, useContext } from 'react';
 import './css/gift.css'; // Create a new CSS file for Gift component styles
 import 'bootstrap-icons/font/bootstrap-icons.css';
-import { ThemeContext } from '../App';
+import { ThemeContext } from '../pages/year1';
 
 
 const Gift = () => {

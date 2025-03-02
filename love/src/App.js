@@ -1,22 +1,18 @@
-import Gift from './components/gift'; // Update the path to your Gift.js file
-import { useState,createContext } from 'react';
-import Body from './components/body';
-import Valentine from './components/Valentines';
-
-export const ThemeContext = createContext();
-
+import { BrowserRouter, Route, Routes, Navigate } from 'react-router-dom';
+import Year1 from './pages/year1';
+import Year2 from './pages/year2';
+import './index.css'
+import MemoryLog from './pages/memoryLog';
 function App() {
-  const [showPic, setShowPic] = useState(-1);
-  const [no,setNo] = useState(0) // Use lowercase for state variable name
-
   return (
-    <ThemeContext.Provider value={{ showPic, setShowPic , no, setNo }}>
-      <div className="app">
-        {showPic === -1 && <Valentine setShowPic={setShowPic} /> }
-        {showPic===0 ? <Gift /> : null} {/* Conditionally render the Gift component */}
-        {showPic>0?<Body/>:null}
-      </div>
-    </ThemeContext.Provider>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Navigate to="/year1" />} />
+        <Route path="/year1" element={<Year1 />} />
+        <Route path="/year2" element={<Year2 />} />
+        <Route path="/memory-log" element={<MemoryLog/>} />
+      </Routes>
+    </BrowserRouter>
   );
 }
 

@@ -1,0 +1,121 @@
+.memory-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .memory-list li {
+    background: #ffeb3b;
+    margin: 8px 0;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 1.1rem;
+  }
+
+  .header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+
+  .memory-link{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    padding: 20px;
+    background: #ffeb3b;
+    border-radius: 10px;
+  }
+  
+  .clear-btn {
+    background: red;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    margin-top: 15px;
+  }
+  
+  .clear-btn:hover {
+    opacity: 0.8;
+  }
+  
+  .back-link {
+    margin-top: 20px;
+  }
+  
+  .memory-link a, .back-link a {
+    text-decoration: none;
+    color: #d81b60;
+    font-size: 1.2rem;
+  }
+  
+  /* Ticket Container */
+.ticket-container {
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  /* Ticket Styles */
+  .ticket {
+    width: 200px;
+    height: 120px;
+    background-size: cover;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: transform 0.2s ease;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    background-color: #FFA500;
+  }
+  
+  .ticket:hover {
+    transform: scale(1.05);
+  }
+  
+  .ticket h3 {
+    margin: 5px 0;
+    font-size: 1.2rem;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+  }
+  
+  .ticket p {
+    font-size: 1rem;
+    color: white;
+    opacity: 0.9;
+  }
+  
+  /* Redeemed Ticket */
+  .ticket.redeemed {
+    background: #ff4081;
+    cursor: default;
+  }
+  
+  .chosen-text {
+    font-weight: bold;
+    font-size: 1.2rem;
+    color: #fff;
+    text-align: center;
+  }
+  
+  /* Secret Ticket */
+  .secret-ticket {
+    margin-top: 20px;
+    padding: 15px;
+    background: #ffeb3b;
+    border-radius: 10px;
+    font-size: 1.2rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+

@@ -2,11 +2,12 @@ import React, { useState, useContext } from 'react';
 import Nav from './nav';
 import './css/body.css';
 import Announcement from './announcement';
-import { ThemeContext } from '../App';
+import { ThemeContext } from '../pages/year1';
 import Pagination from './pagination';
 import Pic from './data';
 import { createContext } from 'react';
-import Play from './play';
+import { Link } from 'react-router-dom';
+
 
 export const Opening = createContext();
 
@@ -23,10 +24,10 @@ const Body = () => {
   return (
     <Opening.Provider value={{ open, setOpen, showImage, setShowImage }}>
       <div className="web-body">
-        <Announcement />
+        <Announcement text="Here is a small gift for NAM for Valentine days. Love you 💕" />
         <Nav />
-        <div className='play-con'>
-          {/* <Play/> */}
+        <div className='link'> 
+          <Link to={'/year2'}>Click here to your Tickets</Link>
         </div>
         <div className="frame">
           {/* Add the 'show' class to the image when showImage is true */}

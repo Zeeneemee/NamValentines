@@ -1,9 +1,9 @@
 import './css/announcement.css'
-const Announcement = ()=>{
+const Announcement = ({text})=>{
     return(
         <div className="announce-con">
             <div className="announce-text">
-                <p>Here is a small gift for NAM for Valentine days. Love you 💕</p>
+                <p>{text}</p>
             </div>
         </div>
     )

@@ -26,8 +26,8 @@ import TwentyFour from '../our_memory/nam/twentFive.jpg'
 import TwentyFive from '../our_memory/namSG/jpgSG/sg1.JPG'
 import TwentySix from '../our_memory/namSG/jpgSG/sg2.jpg'
 import TwentySeven from '../our_memory/namSG/jpgSG/arrivedSg.jpg'
-import TwentEight from '../our_memory/namSG/jpgSG/celebnamnam.jpg'
-import TwentNine from '../our_memory/namSG/jpgSG/hotnamnam.jpg'
+import TwentyEight from '../our_memory/namSG/jpgSG/celebnamnam.jpg'
+import TwentyNine from '../our_memory/namSG/jpgSG/hotnamnam.jpg'
 import Thirty from '../our_memory/namSG/jpgSG/sexynamnam.jpg'
 import ThirtyOne from '../our_memory/namSG/jpgSG/merlinam.jpg'
 import ThirtyTwo from '../our_memory/namSG/jpgSG/hustlenamnam.jpg'
@@ -57,8 +57,15 @@ const Pic = [
     { pic: Twenty, text: 'Bringing indecisely babe to buy Samba' },
     { pic: TwentyOne, text: 'We made it official!!' },
     { pic: Twentytwo, text: 'What a rooftop meal before Singapore :(' },
-    { pic: TwentyThird, text: 'My favourite girl video calling with me in SG.' },
     { pic: TwentyFour, text: 'Let\'s continue our love journey... Love you 😘 ' },
+    { pic: TwentySix, text: 'We exercise a lot in Singapaore ' },
+    { pic: TwentySeven, text: 'Blare! Here is Chicken Rice Smile' },
+    { pic: TwentyEight, text: 'You look so cute until i want to buy you that gentle monster' },
+    { pic: TwentyNine, text:  'huggy tt and numnum  ' },
+    { pic: Thirty, text: 'Beach is on fire with numnum ' },
+    { pic: ThirtyOne, text: 'Merlinumnum' },
+    { pic: ThirtyTwo, text: 'Numnum fit2 let\'s hit the gym tgt asap ' },
+
 
     // { pic: TwentyFive, text: 'Let\'s continue our love journey... Love you 😘 ' },
 ];
