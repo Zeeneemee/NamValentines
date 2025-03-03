@@ -34,7 +34,10 @@ const MemoryLog = () => {
   return (
     <div className="memory-log">
       <Announcement text="Recall our past memories and create more 🎉" />
-      <h2>📜 Past Birthday Experiences 📜</h2>
+      <div className="mem-title">
+        <h2>📜 Past Birthday Experiences 📜</h2>
+      </div>
+
 
       {experiences.length === 0 ? (
         <p>No past experiences found.</p>
@@ -51,7 +54,10 @@ const MemoryLog = () => {
         </ul>
       )}
 
-      <button className="clear-btn" onClick={handleClear}>🗑️ Clear Memories</button>
+      <div className="mem-btn">
+        <button className="clear-btn" onClick={handleClear}>🗑️ Clear Memories</button>
+      </div>
+      
 
       <div className="back-link">
         <a href="/year2">⬅️ Back to Tickets</a>

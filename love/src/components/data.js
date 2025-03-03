@@ -31,9 +31,15 @@ import TwentyNine from '../our_memory/namSG/jpgSG/hotnamnam.jpg'
 import Thirty from '../our_memory/namSG/jpgSG/sexynamnam.jpg'
 import ThirtyOne from '../our_memory/namSG/jpgSG/merlinam.jpg'
 import ThirtyTwo from '../our_memory/namSG/jpgSG/hustlenamnam.jpg'
-
-
-
+import ThirtyThree from '../our_memory/2025/FullSizeRender.jpg'
+import ThirtyFour from '../our_memory/2025/IMG_2926.jpg'
+import ThirtyFive from '../our_memory/2025/IMG_3577 3.jpg'
+import ThirtySix from '../our_memory/2025/IMG_4827.jpg' 
+import ThirtySeven from '../our_memory/2025/IMG_6566.jpg'
+import ThirtyEight from '../our_memory/2025/IMG_6721.jpg'
+import ThirtyNine from '../our_memory/2025/IMG_7355.jpg'
+import Fourty from '../our_memory/2025/IMG_7615.jpg'
+import FourtyOne from '../our_memory/2025/IMG_7685.jpg'
 const Pic = [
     { video: Zero, text: 'Our first meet with Scoma\'s!' },
     { pic: First, text: 'You look pretty with my Balenciaga' },
@@ -58,6 +64,7 @@ const Pic = [
     { pic: TwentyOne, text: 'We made it official!!' },
     { pic: Twentytwo, text: 'What a rooftop meal before Singapore :(' },
     { pic: TwentyFour, text: 'Let\'s continue our love journey... Love you 😘 ' },
+    { pic: TwentyFive, text: "It's another chapter for both of us" },
     { pic: TwentySix, text: 'We exercise a lot in Singapaore ' },
     { pic: TwentySeven, text: 'Blare! Here is Chicken Rice Smile' },
     { pic: TwentyEight, text: 'You look so cute until i want to buy you that gentle monster' },
@@ -65,9 +72,14 @@ const Pic = [
     { pic: Thirty, text: 'Beach is on fire with numnum ' },
     { pic: ThirtyOne, text: 'Merlinumnum' },
     { pic: ThirtyTwo, text: 'Numnum fit2 let\'s hit the gym tgt asap ' },
-
-
-    // { pic: TwentyFive, text: 'Let\'s continue our love journey... Love you 😘 ' },
+    { pic: ThirtyThree, text: 'We look so good together at Atmos ' },
+    { pic: ThirtyFive, text: 'Woody eat numnum' },
+    { pic: ThirtySix, text: 'Cocktail night after midterm exam ' },
+    { pic: ThirtySeven, text: 'So excited for your upcoming KATAKORN ' },
+    { pic: ThirtyEight, text: 'TT\'s KATAKORN you look so pretty ' },
+    { pic: ThirtyNine, text: 'It\'s a new year with numnum' },
+    { pic: Fourty, text: 'Happy 1st anniversary please wear my ring' },
+    { pic: FourtyOne, text: '2nd year and counting' },
 ];
 
 export default Pic;

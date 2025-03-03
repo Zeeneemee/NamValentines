@@ -25,7 +25,7 @@ const Body = () => {
     <Opening.Provider value={{ open, setOpen, showImage, setShowImage }}>
       <div className="web-body">
         <Announcement text="Here is a small gift for NAM for Valentine days. Love you 💕" />
-        <Nav />
+        <Nav/>
         <div className='link'> 
           <Link to={'/year2'}>Click here to your Tickets</Link>
         </div>

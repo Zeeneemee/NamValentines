@@ -47,28 +47,28 @@ const Year2 = () => {
 
   const eatActivities = [
     "Sushi Night 🍣", "Pizza Party 🍕", "Burger 🍔", "Pasta Evening 🍝",
-    "Taco Fiesta 🌮", "BBQ  🍖", "Salad  🥗", "Steak Dinner 🥩",
+    "BBQ  🍖", "Salad  🥗", "Steak Dinner 🥩",
     "Seafood  🦞", "Dim Sum Brunch 🥟", "Ramen Night 🍜",
     "Hot Pot Dinner 🍲", "Korean BBQ 🔥", "French Bistro 🥐",
-    "Mediterranean Feast 🍇", "Sushi Roll-Making 🍣", "Dessert Date 🍰", "Ice Cream Social 🍦"
+    "Mediterranean Feast 🍇", "Sushi Roll-Making 🍣", "Cake Date 🍰", "Ice Cream 🍦",
+    "Izakaya Drink ", "Rooftop", "Jian-cha Drink Party 🍵"
   ];
 
   const playActivities = [
     "Board Game Night 🎲", "Video Game Marathon 🎮", "Escape Room Adventure 🔐",
     "Movie Night 🎥", 
-    "Arcade Fun 👾", "Bowling Night 🎳", "Mini-Golf Outing ⛳",
-    "Card Games ♠️", "Chess Tournament ♟️", "Ping Pong Battle 🏓",
-    "Dance-Off 💃", "Laser Tag 🔫", 
-    "Crafting Session 🎨", "Outdoor Picnic Games 🌳"
+    "Arcade Fun 👾", "Bowling Night 🎳", "Top-Golf ⛳",
+    "Card Games ♠️", "Virgin-Active 🤸", "Ping Pong Battle 🏓",
+    "Dance-Off 💃", "Crafting Session 🎨", "Outdoor Picnic Games 🌳"
   ];
 
   const doActivities = [
-    "Movie Marathon 🎬", "Karaoke Night 🎤", "Stargazing Picnic 🌠",
-    "Spa Day 🧖", "Beach Day 🏖️",
-    "Art Gallery Visit 🖼️", "Live Concert 🎵", "Theater Show 🎭",
-    "Cooking Class 🍳", "Wine Tasting 🍷", "Bike Ride 🚴",
+    "Movie Marathon 🎬", "Karaoke Night 🎤", "Picnic 🌠",
+    "Massage 🧖", "Cocktail Bar Drink 🍷",
+    "Three-man-down Live Concert 🎵", "Cinema Show 🎭",
+    "Cooking Class 🍳", "Bike Ride 🚴",
     "Museum Tour 🏛️", "Park Picnic 🌳",
-    "Farmers Market Trip 🥕", "Yoga Session 🧘", "Pottery Class 🏺",
+    "Farmers Market Trip 🥕", "Yoga Session 🧘", "Cafe Hopping ☕️"
   ];
 
   return (

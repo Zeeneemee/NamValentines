@@ -8,7 +8,7 @@ const Pagination = () => {
   const { no, setNo } = useContext(ThemeContext);
   const {setOpen, setShowImage} = useContext(Opening)
   const [page,setPage] = useState(1)
-  const totalPages = 29;
+  const totalPages = 39;
 
 const handlePageChange =  (newPage) => {
   if (newPage >= 0 && newPage < totalPages) {
